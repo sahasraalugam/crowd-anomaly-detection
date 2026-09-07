@@ -1,0 +1,32 @@
+{
+  "architecture": {
+    "base_model": "MobileNetV2 (ImageNet pretrained, frozen)",
+    "total_params": 2914369,
+    "trainable_params": 656385,
+    "input_shape": "150x150x3"
+  },
+  "dataset": {
+    "train_samples": 2543,
+    "val_samples": 635,
+    "classes": {
+      "Non-violent": 0,
+      "violent": 1
+    }
+  },
+  "training": {
+    "epochs_run": 27,
+    "training_time_seconds": 540.54,
+    "training_time_minutes": 9.01,
+    "final_train_accuracy": 97.32,
+    "final_val_accuracy": 94.65,
+    "best_val_accuracy": 95.43,
+    "final_train_loss": 0.0876,
+    "final_val_loss": 0.1427
+  },
+  "model_size_mb": 16.49,
+  "live_inference": {
+    "frames_tested": 1207,
+    "avg_inference_latency_ms": 134.21,
+    "end_to_end_fps": 6.61
+  }
+}
